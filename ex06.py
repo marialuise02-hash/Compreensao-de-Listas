@@ -1,7 +1,8 @@
 # 6. Contar quantidade de vogais em uma string
 
-vogais = [a, e, i, o, u]
-soma = 0
-strg = [input().split() for i in range(strg[i]) if vogais in strg[i] soma += 1]
+vogais = ['a', 'e', 'i', 'o', 'u']
 
-print(strg)
+strg = input().lower()
+qtd_vogais = [vogal for vogal in strg if vogal in vogais]
+
+print(len(qtd_vogais))
