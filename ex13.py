@@ -2,7 +2,7 @@
 
 tamanho_matriz = int(input())
 
-matriz = [[int(x) for i in input().split()] for i in range(tamanho_matriz)]
+matriz = [[int(x) for x in input().split()] for i in range(tamanho_matriz)]
 
 nums_pares = [num for linha in matriz for num in linha if num % 2 == 0]
 
