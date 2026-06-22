@@ -2,6 +2,6 @@
 
 nums = input().split()
 
-num_par = [n for n in nums if n%2 == 0]
+num_par = [int(n) for n in nums if int(n) % 2 == 0]
 
 print(num_par)
