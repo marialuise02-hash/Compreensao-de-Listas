@@ -1,2 +1,2 @@
 # Compreensao-de-Listas
-Repositório criado para atividades desenvolvidas na Programação A do meu curso na UFS.
+Repositório criado para atividades desenvolvidas na disciplina de Programação A do meu curso sobre compreensão de listas em python.
