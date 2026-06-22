@@ -2,6 +2,6 @@
 
 texto = input().split()
 
-lista = [letra for letra in linha for linha in texto]
+lista = [letra for linha in texto for letra in tinha]
 
 print(lista)
