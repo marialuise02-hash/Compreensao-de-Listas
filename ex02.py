@@ -3,3 +3,5 @@
 def descendentes(integrantes):
   integrantes = [input().split()]
   return integrantes[2:]
+
+print(descendentes(integrantes))
